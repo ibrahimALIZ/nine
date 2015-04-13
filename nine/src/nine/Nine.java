@@ -20,6 +20,8 @@ public class Nine {
 		System.out.println("sldfldjslf");
 		
 		printTiles(tiles, 3);
+		
+		System.out.println("56465456456");
 	}
 
 	public static void printTiles(List<String> tiles, int d) {
