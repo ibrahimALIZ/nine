@@ -9,6 +9,7 @@ public class Nine {
 	public static void main(String[] args) {
 		char[] nine = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I' };
 
+		System.out.println("aswewedff");
 		List<String> tiles = new ArrayList<String>();
 		for (char c : nine) {
 			tiles.add(String.valueOf(c));
