@@ -17,7 +17,7 @@ public class Nine {
 		
 		
 		Collections.shuffle(tiles);
-		
+		System.out.println("sldfldjslf");
 		
 		printTiles(tiles, 3);
 	}
