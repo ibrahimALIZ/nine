@@ -9,20 +9,15 @@ public class Nine {
 	public static void main(String[] args) {
 		char[] nine = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I' };
 
-		System.out.println("aswewedff");
 		List<String> tiles = new ArrayList<String>();
 		for (char c : nine) {
 			tiles.add(String.valueOf(c));
 		}
 		printTiles(tiles, 3);
 		
-		System.out.println("aswewedff");
 		Collections.shuffle(tiles);
-		System.out.println("sldfldjslf");
 		
 		printTiles(tiles, 3);
-		
-		System.out.println("56465456456");
 	}
 
 	public static void printTiles(List<String> tiles, int d) {
